@@ -1,151 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Taxi Mounir Soissons</title>
-<style>
-  * {
-    margin: 0; padding: 0; box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  body {
-    background: #000;
-    color: #ffcb05;
-    line-height: 1.5;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-  }
-  header {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  header img {
-    width: 120px;
-    border-radius: 50%;
-    border: 3px solid #ffcb05;
-    margin-bottom: 0.5rem;
-  }
-  h1 {
-    font-size: 1.8rem;
-    margin-bottom: 0.2rem;
-  }
-  h2 {
-    font-weight: normal;
-    font-size: 1.2rem;
-    font-style: italic;
-    color: #f1c40f;
-    margin-bottom: 1rem;
-  }
-  main {
-    background: #222;
-    border-radius: 10px;
-    padding: 1rem 1.5rem;
-    max-width: 400px;
-    width: 100%;
-  }
-  section.services {
-    margin-bottom: 1rem;
-  }
-  section.services ul {
-    list-style: none;
-    padding-left: 1rem;
-  }
-  section.services li {
-    margin-bottom: 0.5rem;
-  }
-  .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-  .buttons a, .buttons button {
-    background: #ffcb05;
-    color: #000;
-    font-weight: 600;
-    padding: 0.7rem 1.2rem;
-    text-decoration: none;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    flex: 1 1 45%;
-    text-align: center;
-    transition: background 0.3s ease;
-  }
-  .buttons a:hover, .buttons button:hover {
-    background: #d4a500;
-  }
-  #map {
-    width: 100%;
-    height: 200px;
-    border-radius: 10px;
-    border: 2px solid #ffcb05;
-  }
-  @media (max-width: 480px) {
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bienvenue sur mon site GitHub Pages</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f0f0f0;
+    }
     h1 {
-      font-size: 1.5rem;
+      color: #007acc;
     }
-    main {
-      max-width: 100%;
-      padding: 1rem;
+    p {
+      color: #333;
     }
-    .buttons a, .buttons button {
-      flex: 1 1 100%;
-    }
-  }
-</style>
+  </style>
 </head>
 <body>
-
-<header>
-  <img src="https://i.ibb.co/rx9HvSQ/taxi-logo.png" alt="Taxi Mounir Logo" />
-  <h1>Taxi Mounir Soissons</h1>
-  <h2>Votre chauffeur à Soissons – Confort et ponctualité</h2>
-  <p><strong>Zone de service :</strong> Ville de Soissons et alentours</p>
-</header>
-
-<main>
-  <section class="services">
-    <h3>Services proposés :</h3>
-    <ul>
-      <li>Courses en taxi tous trajets</li>
-      <li>Transferts aéroports et gares</li>
-      <li>Transport médical assis (VSL)</li>
-      <li>Courses rapides et confortables</li>
-    </ul>
-  </section>
-
-  <div class="buttons">
-    <a href="tel:+33663212046">📞 Appeler maintenant</a>
-    <a href="https://wa.me/33663212046" target="_blank">💬 WhatsApp direct</a>
-    <a href="mailto:taximounir02@gmail.com">📧 Email</a>
-    <a href="taxi-mounir.vcf" download="Taxi-Mounir-Soissons.vcf">📇 Ajouter aux contacts</a>
-    <button id="btn-locate">📍 Me localiser</button>
-  </div>
-
-  <div id="map"></div>
-</main>
-
-<script>
-  document.getElementById('btn-locate').addEventListener('click', () => {
-    window.open('https://www.google.com/maps/search/?api=1&query=Soissons+02200', '_blank');
-  });
-
-  const mapDiv = document.getElementById('map');
-  mapDiv.innerHTML = `
-    <iframe
-      width="100%"
-      height="200"
-      frameborder="0" style="border:0"
-      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD-PLACE_YOUR_KEY_HERE&q=Soissons+02200,France" allowfullscreen>
-    </iframe>
-  `;
-</script>
-
+  <h1>Bonjour !</h1>
+  <p>Bienvenue sur mon premier site hébergé avec GitHub Pages.</p>
 </body>
 </html>
