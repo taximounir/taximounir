@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Ton Kachour Mounir
+ORG:Taxi Mounir Soissons
+TITLE:Chauffeur de taxi
+TEL;TYPE=voice,cell:+33663212046
+EMAIL:taximounir02@gmail.com
+ADR;TYPE=work:;;Soissons;;02200;France
+URL:https://taximounir.github.io/taximounir/
+NOTE:Votre chauffeur à Soissons – Confort et ponctualité
+END:VCARD
